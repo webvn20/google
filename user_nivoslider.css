@@ -1,0 +1,227 @@
+﻿/*
+Skin Name: Nivo Slider Default Theme
+Skin URI: http://nivo.dev7studios.com
+Skin Type: flexible
+Description: The default skin for the Nivo Slider.
+Version: 1.0
+Author: Gilbert Pellegrom
+Author URI: http://dev7studios.com
+*/
+
+.theme-default .nivoSlider {
+	background: url(http://3.bp.blogspot.com/-hi6IP_-HjvI/U6L5vKIUzwI/AAAAAAAAJa0/b3LRU4x8xXo/s320/loader.gif) no-repeat scroll 50% 50% #FFFFFF;
+	position: relative;
+    /*
+    -webkit-box-shadow: 0px 1px 5px 0px #4a4a4a;
+	-moz-box-shadow: 0px 1px 5px 0px #4a4a4a;
+	box-shadow: 0px 1px 5px 0px #4a4a4a;*/
+}
+.theme-default .nivoSlider img {
+	display: none;
+	left: 0;
+	position: absolute;
+	top: 0;
+}
+.theme-default .nivoSlider a {
+	border: 0 none;
+	display: block;
+}
+/*.theme-default .nivo-controlNav {
+	bottom: 0;
+	right: 0;
+	margin: 0;
+	position: absolute;
+}
+.theme-default .nivo-controlNav a {
+	background: url(/Images/bullets.png) no-repeat scroll 0 0 transparent;
+	border: 0 none;
+	display: block;
+	float: left;
+	height: 22px;
+	margin-right: 3px;
+	text-indent: -9999px;
+	width: 22px;
+}*/
+/*.theme-default .nivo-controlNav a.active {
+	background-position: 0 -22px;
+}*/
+.theme-default .nivo-directionNav a {
+	background: url(http://1.bp.blogspot.com/-EIgC3Xwxtu0/U6L5IYF2C_I/AAAAAAAAJac/cnZtL7RRtZs/s1600/slideArrow.png) no-repeat scroll 0 0 transparent;
+	border: 0 none;
+	display: block;
+	height: 38px;
+	text-indent: -9999px;
+	width: 34px;
+}
+.theme-default a.nivo-nextNav {
+	background-position: -34px 0;
+	right: 8px;
+}
+.theme-default a.nivo-prevNav {
+	left: 8px;
+}
+.theme-default .nivo-caption {
+	font-family: Helvetica, Arial, sans-serif;
+}
+.theme-default .nivo-caption a {
+	border-bottom: 1px dotted #FFFFFF;
+	color: #FFFFFF;
+}
+.theme-default .nivo-caption a:hover {
+	color: #FFFFFF;
+}
+.nivoSlider {
+	position: relative;
+}
+.nivoSlider img {
+	left: 0;
+	position: absolute;
+	top: 0;
+}
+.nivoSlider a.nivo-imageLink {
+	border: 0 none;
+	display: none;
+	height: 100%;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 6;
+}
+.nivo-slice {
+	display: block;
+	height: 100%;
+	position: absolute;
+	z-index: 5;
+}
+.nivo-box {
+	display: block;
+	position: absolute;
+	z-index: 5;
+}
+.nivo-caption {
+	background: none repeat scroll 0 0 #000000;
+	bottom: 0;
+	color: #FFFFFF;
+	left: 0;
+	opacity: 0.8;
+	position: absolute;
+	width: 100%;
+	z-index: 8;
+}
+.nivo-caption p {
+	margin: 0;
+	padding: 5px;
+}
+.nivo-caption a {
+	display: inline !important;
+}
+.nivo-html-caption {
+	display: none;
+}
+.nivo-directionNav a {
+	cursor: pointer;
+	position: absolute;
+	top: 40%;
+	z-index: 9;
+}
+.nivo-directionNav a:hover{
+    
+    }
+.nivo-prevNav {
+	left: 0;
+}
+.nivo-nextNav {
+	right: 0;
+}
+/*.nivo-controlNav a {
+	cursor: pointer;
+	position: relative;
+	z-index: 9;
+}*/
+/*.nivo-controlNav a.active {
+	font-weight: bold;
+}*/
+.nivo-controlNav {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+/* Control nav styles (e.g. 1,2,3...) */
+    .nivo-controlNav a {
+        background-image: url("http://2.bp.blogspot.com/-MfyfxW_OOlE/U6L5esOE5RI/AAAAAAAAJas/3AxJMVAM9Ps/s320/bullets-sprite.png") !important;
+        background-position: -1px 0px !important;
+        color: #FFFFFF;
+        display: block;
+        float: left;
+        font: bold 12px/21px arial;
+        height: 23px;
+        text-align: center;
+        margin: 0 2px;
+        text-decoration: none;
+        width: 22px;
+        display: inline-block;
+        *display: inline;
+        cursor: pointer;
+        z-index: 9;
+        position: relative;
+        line-height: 23px;
+    }
+    .nivo-controlNav a.active {
+        background-position: -31px 0px !important;
+        color: #053865;
+    }
+.theme-default {
+    position: relative;
+}
+    .theme-default #slider {
+        width: 750px;
+        height: 288px;
+        margin-top: 10px;
+    }
+    .theme-default #CateSlide {
+        width: 790px;
+        height: 288px;
+    }
+.secondaryCallout {
+    background-color: #FFFFFF;
+    background-position: 5px 50%;
+    background-repeat: no-repeat;
+    border-radius: 3px 3px 3px 3px;
+    display: block;
+    height: 100px;
+    overflow: hidden;
+    padding-left: 90px;
+    padding-right: 5px;
+    position: absolute;
+    right: 50px;
+    width: 120px;
+    z-index: 10;
+}
+.secondaryCallout .sCalloutHeading {
+    font: bold 14px arial;
+    letter-spacing: -1px;
+    margin: 5px 0 6px;
+}
+.secondaryCallout span {
+    display: block;
+}
+.secondaryCallout .sCalloutLink {
+    color: #267AB7;
+    display: block;
+    margin-top: 4px;
+}
+.hCallout1 {
+    top: 33px;
+}
+.hCallout2 {
+    top: 153px;
+}
+
+a.secondaryCallout, a.secondaryCallout:hover {
+    color: #333333;
+    text-decoration: none;
+}
